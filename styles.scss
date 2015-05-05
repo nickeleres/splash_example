@@ -4,6 +4,7 @@ $section_1_color : #FFF;
 $heading_font : Montserrat;
 $body_font: Open Sans;
 $button_height: 44px;
+$button_width: 150px;
 
 #section_1{
 	background-color: #FF6D59;
@@ -14,10 +15,6 @@ $button_height: 44px;
 		float: left;
 		margin-left: 6em;
 		color: $section_1_color;
-	}
-
-	#top_nav{
-		// overflow: hidden;
 	}
 
 	#navbar ul{
@@ -90,8 +87,8 @@ $button_height: 44px;
 		border-width: 2px;
 		background-color: #FF6D59;
 		margin-top: 2em;
-		width: 150px;
-		height: 50px;
+		width: $button_width;
+		height: $button_height;
 		border-radius: 4px;
 		font-size: 16px;
 	}
@@ -100,15 +97,20 @@ $button_height: 44px;
 #section_2{
 
 	text-align: center;
+	padding-top: 6em;
+	padding-bottom: 6em;
 
 	#section_2_text_and_button{
-		// margin: 0 auto;
-		// float: none;
-		// padding-left: 8em;
+		margin: 0 auto;
+		float: none;
+		display: inline-block;
 	}
 
 	#section_2_text{
 		float: left;
+		font-family: $heading_font;
+		margin-right: 1em;
+		padding-bottom: 1em;
 	}
 
 	#buy_it_now_button{
@@ -116,8 +118,7 @@ $button_height: 44px;
 		color: white;
 		border: white;
 		background-color: #FF6D59;
-		margin-top: 2em;
-		width: 150px;
+		width: $button_width;
 		height: $button_height;
 		border-radius: 4px;
 		font-size: 16px;
