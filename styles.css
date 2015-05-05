@@ -62,4 +62,19 @@
     border-radius: 4px;
     font-size: 16px; }
 
+#section_2 {
+  text-align: center; }
+  #section_2 #section_2_text {
+    float: left; }
+  #section_2 #buy_it_now_button {
+    float: left;
+    color: white;
+    border: white;
+    background-color: #FF6D59;
+    margin-top: 2em;
+    width: 150px;
+    height: 44px;
+    border-radius: 4px;
+    font-size: 16px; }
+
 /*# sourceMappingURL=styles.css.map */
