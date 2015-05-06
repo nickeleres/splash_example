@@ -21,7 +21,8 @@
     position: absolute;
     float: none;
     display: none;
-    background-color: white; }
+    background-color: white;
+    border-radius: 8px; }
   #section_1 .dropdown_menu li {
     color: #FF6D59 !important; }
   #section_1 #navbar ul li ul li {
