@@ -153,9 +153,9 @@
   #section_4 #section_4_row_1,
   #section_4 #section_4_row_2 {
     text-align: center;
-    margin-top: 2em; }
+    margin-top: 1.5em; }
   #section_4 #section_4_row_2 {
-    padding-right: 2.3em; }
+    padding-right: 2em; }
   #section_4 #double_wide_image {
     content: url("assets/section_4_big.png");
     width: 460px;
