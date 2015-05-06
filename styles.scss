@@ -130,6 +130,46 @@ $section_4_module_margin_left: 0.5em;
 	}
 }
 
+@media (min-width: 850px) and (max-width: 1000px){
+	#section_1{
+
+		position: relative;
+		padding-bottom: 4em;
+
+		#content_text_area{
+			float: right;
+			margin: 8em 0 0 12em;
+			padding: 0;
+		}
+
+		#iphone_image{
+			position: absolute;
+			margin: 0;
+			bottom: 0px;
+			left: 20px;
+			width: 180px;
+			height: 250px;
+		}
+
+		#top_nav{
+			margin-bottom: -5em;
+		}
+	}
+}
+
+@media (max-width: 810px){
+	#section_1{
+
+		#iphone_image{
+			display: none;
+		}
+
+		#appily_text{
+			margin-left: 3em;
+		}
+	}
+}
+
 #section_2{
 
 	text-align: center;
