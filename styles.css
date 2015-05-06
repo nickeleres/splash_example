@@ -131,6 +131,11 @@
     font-family: Montserrat;
     margin-top: 5px; }
 
+@media (max-width: 810px) {
+  #section_2 #section_2_text,
+  #section_2 #buy_it_now_button {
+    float: none;
+    text-align: center; } }
 #section_3 {
   text-align: center;
   padding-bottom: 7em;
@@ -263,6 +268,42 @@
       width: 120px;
       height: 180px;
       padding-bottom: 10px; }
+      #section_4 .top .section_4_module_icon {
+        width: 120px; }
+      #section_4 .top .section_4_module_text {
+        width: 100px; }
+    #section_4 #section_4_row_2 {
+      margin-top: 40px; }
+    #section_4 .text_1, #section_4 .text_2, #section_4 .text_3, #section_4 .text_4 {
+      font-size: 8px;
+      line-height: 10px; } }
+@media (min-width: 0px) and (max-width: 650px) {
+  #section_4 {
+    text-align: center; }
+    #section_4 #section_4_row_1 {
+      height: 180px; }
+    #section_4 #double_wide_image {
+      width: 280px;
+      height: 190px; }
+    #section_4 .section_4_module {
+      width: 120px;
+      height: 180px;
+      padding-bottom: 10px;
+      display: block;
+      margin-left: 0;
+      margin-bottom: 3em;
+      float: left;
+      text-align: center; }
+      #section_4 .section_4_module .section_4_module_icon {
+        width: 120px; }
+      #section_4 .section_4_module .section_4_module_text {
+        width: 100px; }
+    #section_4 .top {
+      width: 120px;
+      height: 180px;
+      padding-bottom: 10px;
+      display: block;
+      float: right; }
       #section_4 .top .section_4_module_icon {
         width: 120px; }
       #section_4 .top .section_4_module_text {
