@@ -177,7 +177,7 @@ $section_4_module_margin_left: 0.5em;
 
 #section_4{
 	text-align: center;
-	padding-bottom: 6em;
+	padding-bottom: 2em;
 	padding-top: 6em;
 
 	#latest_news{
@@ -197,15 +197,18 @@ $section_4_module_margin_left: 0.5em;
 		font-weight: bolder;
 	}
 
+	#section_4_row_1{
+		height: 340px;
+	}
+
 	#section_4_row_1, 
 	#section_4_row_2{
 		text-align: center;
 		margin-top: 2em;
-
 	}
 
 	#section_4_row_2{
-		padding-right: 2.8em;
+		padding-right: 2.3em;
 		margin-top: 1em;
 	}
 
@@ -213,14 +216,12 @@ $section_4_module_margin_left: 0.5em;
 		content: url('assets/section_4_big.png');
 		width: 460px;
 		height: 340px;
-		clear: both;
 		display: inline-block;
-		float: none !important;
 		border-radius: 8px;
+
 	}
 
 	.section_4_module{
-		float: none !important;
 		display: inline-block;
 		border-width: 2px;
 		height: 340px;
@@ -228,6 +229,15 @@ $section_4_module_margin_left: 0.5em;
 		border-radius: 8px;
 		border-color: #F3F3F3;
 		margin-left: 2em;
+		padding-bottom: 1em;
+		margin-top: 1em;
+	}
+
+	.top{
+		position: relative;
+  		top: 50%;
+  		transform: translateY(-50%);
+
 	}
 
 	.section_4_module_icon{
@@ -243,7 +253,7 @@ $section_4_module_margin_left: 0.5em;
 
 	.text_1{
 		color: #C0C0C0;
-		margin-top: 0.5em;
+		margin-top: 0.8em;
 		margin-left: $section_4_module_margin_left;
 		font-family: $body_font;
 		font-size: 12px;
@@ -271,10 +281,6 @@ $section_4_module_margin_left: 0.5em;
 		font-weight: bold !important;
 	}
 }
-
-
-
-
 
 
 
