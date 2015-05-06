@@ -218,11 +218,11 @@ $section_4_module_margin_left: 0.5em;
 	#section_4_row_1, 
 	#section_4_row_2{
 		text-align: center;
-		margin-top: 1.5em;
+		margin-top: 2em;
 	}
 
 	#section_4_row_2{
-		padding-right: 2em;
+		padding-right: 4em;
 	}
 
 	#double_wide_image{
@@ -231,6 +231,7 @@ $section_4_module_margin_left: 0.5em;
 		height: 335px;
 		display: inline-block;
 		border-radius: 8px;
+		box-sizing: border-box;
 
 	}
 
@@ -255,6 +256,7 @@ $section_4_module_margin_left: 0.5em;
 		content: url('assets/section_4_module_icon.png');
 		height: 180px;
 		width: 210px;
+		border-radius: 8px;
 	}
 
 	.section_4_module_text{

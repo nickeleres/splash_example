@@ -153,15 +153,16 @@
   #section_4 #section_4_row_1,
   #section_4 #section_4_row_2 {
     text-align: center;
-    margin-top: 1.5em; }
+    margin-top: 2em; }
   #section_4 #section_4_row_2 {
-    padding-right: 2em; }
+    padding-right: 4em; }
   #section_4 #double_wide_image {
     content: url("assets/section_4_big.png");
     width: 460px;
     height: 335px;
     display: inline-block;
-    border-radius: 8px; }
+    border-radius: 8px;
+    box-sizing: border-box; }
   #section_4 .section_4_module {
     display: inline-block;
     border-width: 2px;
@@ -177,7 +178,8 @@
   #section_4 .section_4_module_icon {
     content: url("assets/section_4_module_icon.png");
     height: 180px;
-    width: 210px; }
+    width: 210px;
+    border-radius: 8px; }
   #section_4 .section_4_module_text {
     text-align: left;
     width: 200px; }
