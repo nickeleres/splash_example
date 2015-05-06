@@ -127,7 +127,7 @@ $button_width: 150px;
 
 #section_3{
 	text-align: center;
-	padding-bottom: 2em;
+	padding-bottom: 6em;
 	padding-top: 3em;
 	background-color: #F5F5F5;
 
@@ -170,6 +170,29 @@ $button_width: 150px;
 	.section_3_module{
 		float: left;
 		padding-right: 1em;
+	}
+}
+
+#section_4{
+	text-align: center;
+	padding-bottom: 6em;
+	padding-top: 6em;
+
+	#latest_news{
+		width: 120px;
+		height: 20px;
+		display: inline-block;
+		float: none !important;
+		border-bottom: 2px solid #E1E1E1;
+		padding-bottom: 1.2em;
+		margin-right: 1em;
+	}
+
+	#latest_news_text{
+		font-size: 16px;
+		font-weight: bold;
+		font-family: $heading_font;
+		font-weight: bolder;
 	}
 }
 
