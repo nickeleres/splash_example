@@ -127,7 +127,7 @@ $button_width: 150px;
 
 #section_3{
 	text-align: center;
-	padding-bottom: 6em;
+	padding-bottom: 7em;
 	padding-top: 3em;
 	background-color: #F5F5F5;
 
@@ -193,6 +193,21 @@ $button_width: 150px;
 		font-weight: bold;
 		font-family: $heading_font;
 		font-weight: bolder;
+	}
+
+	#section_4_row_1{
+		text-align: center;
+		margin-top: 2em;
+	}
+
+	#double_wide_image{
+		content: url('assets/section_4_big.png');
+		width: 400px;
+		height: 300px;
+		clear: both;
+		display: inline-block;
+		float: none !important;
+		border-radius: 8px;
 	}
 }
 
