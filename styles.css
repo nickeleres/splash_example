@@ -167,10 +167,10 @@
     border-radius: 8px; }
   #section_4 .section_4_module {
     display: inline-block;
-    border-width: 2px;
     height: 340px;
+    border-width: 2px;
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 14px;
     border-color: #F3F3F3;
     margin-left: 2em;
     padding-bottom: 1em;
@@ -182,7 +182,8 @@
   #section_4 .section_4_module_icon {
     content: url("assets/section_4_module_icon.png");
     height: 180px;
-    width: 210px; }
+    width: 210px;
+    border-radius: 0px; }
   #section_4 .section_4_module_text {
     text-align: left;
     width: 200px; }
