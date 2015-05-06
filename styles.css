@@ -9,14 +9,25 @@
   #section_1 #navbar ul {
     list-style-type: none;
     float: right;
-    margin-right: 4em;
-    margin-top: 1.5em; }
+    margin-right: 4em; }
   #section_1 #navbar ul li {
     color: #FFF;
-    display: inline;
+    display: inline-block;
     padding-right: 1em;
     font-family: Montserrat;
     font-size: 15px; }
+  #section_1 .dropdown_menu {
+    position: absolute;
+    float: none;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center; }
+  #section_1 .dropdown_menu li {
+    color: #FF6D59 !important; }
+  #section_1 #navbar ul li ul li {
+    display: block;
+    margin-right: 2em; }
   #section_1 #appily_text {
     font-family: Montserrat;
     font-size: 26px;

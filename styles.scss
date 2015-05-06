@@ -23,15 +23,32 @@ $section_4_module_margin_left: 0.5em;
 		list-style-type: none;
 		float: right;
 		margin-right: 4em;
-		margin-top: 1.5em;
 	}
 
 	#navbar ul li{
 		color: $section_1_color;
-		display: inline;
+		display: inline-block;
 		padding-right: 1em;
 		font-family: $heading_font;
 		font-size: 15px;
+	}
+
+	.dropdown_menu{
+		position: absolute;
+		float: none;
+		display: none;
+		background-color: white;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.dropdown_menu li{
+		color: #FF6D59 !important;
+	}
+
+	#navbar ul li ul li{
+		display: block;
+		margin-right: 2em;
 	}
 
 	#appily_text{
