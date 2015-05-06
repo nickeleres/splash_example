@@ -6,6 +6,7 @@ $body_font: Open Sans;
 $button_height: 44px;
 $button_width: 150px;
 $section_4_module_text_width: 200px;
+$section_4_module_margin_left: 0.5em;
 
 #section_1{
 	background-color: #FF6D59;
@@ -196,11 +197,16 @@ $section_4_module_text_width: 200px;
 		font-weight: bolder;
 	}
 
-	#section_4_row_1{
+	#section_4_row_1, 
+	#section_4_row_2{
 		text-align: center;
 		margin-top: 2em;
-		float: none !important;
 
+	}
+
+	#section_4_row_2{
+		padding-right: 2.8em;
+		margin-top: 1em;
 	}
 
 	#double_wide_image{
@@ -209,22 +215,25 @@ $section_4_module_text_width: 200px;
 		height: 340px;
 		clear: both;
 		display: inline-block;
-		float: left;
+		float: none !important;
 		border-radius: 8px;
 	}
 
 	.section_4_module{
-		float: left;
+		float: none !important;
+		display: inline-block;
 		border-width: 2px;
+		height: 340px;
 		border-style: solid;
 		border-radius: 8px;
 		border-color: #F3F3F3;
+		margin-left: 2em;
 	}
 
 	.section_4_module_icon{
 		content: url('assets/section_4_module_icon.png');
-		height: 170px;
-		width: 200px;
+		height: 180px;
+		width: 210px;
 	}
 
 	.section_4_module_text{
@@ -235,9 +244,31 @@ $section_4_module_text_width: 200px;
 	.text_1{
 		color: #C0C0C0;
 		margin-top: 0.5em;
-		margin-left: 0.5em;
+		margin-left: $section_4_module_margin_left;
 		font-family: $body_font;
 		font-size: 12px;
+	}
+
+	.text_2{
+		font-family: $heading_font;
+		font-weight: bolder;
+		font-size: 16px;
+		margin-left: 0.3em;
+	}
+
+	.text_3{
+		font-family: $body_font;
+		font-size: 12px;
+		line-height: 18px;
+		margin-left: $section_4_module_margin_left;
+	}
+
+	.text_4{
+		font-family: $body_font;
+		font-size: 12px;
+		font-style: italic;
+		margin-left: $section_4_module_margin_left;
+		font-weight: bold !important;
 	}
 }
 
