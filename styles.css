@@ -107,14 +107,13 @@
     font-family: Montserrat;
     margin-top: 18px; }
   #section_3 .section_3_text {
-    margin-top: 4em;
     margin-left: 5em;
     width: 260px;
     text-align: left;
     font-family: Open Sans;
     font-size: 14px;
-    line-height: 22px; }
-  #section_3 .section_3_header_and_icon {
-    position: absolute; }
+    line-height: 24px;
+    padding-top: 4em;
+    clear: right; }
 
 /*# sourceMappingURL=styles.css.map */
