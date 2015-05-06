@@ -5,6 +5,7 @@ $heading_font : Montserrat;
 $body_font: Open Sans;
 $button_height: 44px;
 $button_width: 150px;
+$section_4_module_text_width: 200px;
 
 #section_1{
 	background-color: #FF6D59;
@@ -198,16 +199,45 @@ $button_width: 150px;
 	#section_4_row_1{
 		text-align: center;
 		margin-top: 2em;
+		float: none !important;
+
 	}
 
 	#double_wide_image{
 		content: url('assets/section_4_big.png');
-		width: 400px;
-		height: 300px;
+		width: 460px;
+		height: 340px;
 		clear: both;
 		display: inline-block;
-		float: none !important;
+		float: left;
 		border-radius: 8px;
+	}
+
+	.section_4_module{
+		float: left;
+		border-width: 2px;
+		border-style: solid;
+		border-radius: 8px;
+		border-color: #F3F3F3;
+	}
+
+	.section_4_module_icon{
+		content: url('assets/section_4_module_icon.png');
+		height: 170px;
+		width: 200px;
+	}
+
+	.section_4_module_text{
+		text-align: left;
+		width: $section_4_module_text_width;
+	}
+
+	.text_1{
+		color: #C0C0C0;
+		margin-top: 0.5em;
+		margin-left: 0.5em;
+		font-family: $body_font;
+		font-size: 12px;
 	}
 }
 
