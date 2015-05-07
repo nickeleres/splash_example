@@ -114,10 +114,13 @@ $section_4_module_margin_left: 0.5em;
 		border-style: solid;
 		border-width: 4px;
 		background-color: #B34646;
-		width: $button_width + 20px;
-		height: $button_height + 10px;
 		border-radius: 4px;
 		font-size: 16px;
+		position: relative;
+		left: -10px;
+		right: 10px;
+		width: $button_width + 50px;
+		height: $button_height + 20px;
 	}
 }
 

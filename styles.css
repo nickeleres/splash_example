@@ -75,10 +75,13 @@
     border-style: solid;
     border-width: 4px;
     background-color: #B34646;
-    width: 170px;
-    height: 54px;
     border-radius: 4px;
-    font-size: 16px; }
+    font-size: 16px;
+    position: relative;
+    left: -10px;
+    right: 10px;
+    width: 200px;
+    height: 64px; }
 
 @media (max-width: 1250px) {
   #section_1 {
