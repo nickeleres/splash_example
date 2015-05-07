@@ -35,7 +35,8 @@
   #section_1 #section_1_content {
     text-align: center;
     padding-right: 9em;
-    display: inline-block; }
+    display: inline-block;
+    float: left; }
   #section_1 #iphone_image {
     content: url("assets/iphone_image.png");
     height: 470px;
@@ -69,7 +70,7 @@
     border-radius: 4px;
     font-size: 16px; }
 
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
   #section_1 {
     position: relative;
     padding-bottom: 4em; }
@@ -81,10 +82,21 @@
       position: absolute;
       bottom: 0px;
       left: 40px;
-      width: 180px;
-      height: 250px; }
+      width: 200px;
+      height: 260px; }
     #section_1 #section_1_content {
-      margin-top: -6em; } }
+      margin-top: -6em;
+      float: none; } }
+@media (max-width: 1000px) {
+  #section_1 #iphone_image {
+    position: absolute;
+    bottom: 0px;
+    left: 40px;
+    width: 180px;
+    height: 250px; } }
+@media (max-width: 700px) {
+  #section_1 #navbar #navbar_menu_items {
+    float: left; } }
 @media (min-width: 850px) and (max-width: 1000px) {
   #section_1 {
     position: relative;
