@@ -370,13 +370,17 @@ $section_4_margin : 2em;
 			text-align: center;
 		}
 
+		.mod_4{
+
+		}
+
 		#left_half .mod_4,
 		#right_half .column .mod_4{
 			margin: 0 auto;
 			padding: 0;
 			float: none;
 			display: inline-block;
-			text-align: center;
+			margin-top: 1em;
 		}
 
 		#left_half .double_wide_image{
