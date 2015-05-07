@@ -406,11 +406,11 @@ $section_4_margin : 2em;
 	}
 
 	#left_half{
-		float:left;
+		display: inline-block;
+		margin: 0;
 	}
 
 	#right_half{
-		float: none;
 		display: inline-block;
 		margin: 0 auto;
 	}

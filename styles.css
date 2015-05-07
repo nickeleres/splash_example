@@ -257,9 +257,9 @@
     float: left;
     display: inline-block; }
   #section_4 #left_half {
-    float: left; }
+    display: inline-block;
+    margin: 0; }
   #section_4 #right_half {
-    float: none;
     display: inline-block;
     margin: 0 auto; }
   #section_4 #latest_news {
