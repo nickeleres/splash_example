@@ -83,7 +83,8 @@
       bottom: 0px;
       left: 40px;
       width: 200px;
-      height: 260px; }
+      height: 260px;
+      padding-left: 4em; }
     #section_1 #section_1_content {
       margin-top: -6em;
       float: none; } }
@@ -111,11 +112,14 @@
       bottom: 0px;
       left: 40px;
       width: 180px;
-      height: 250px; }
+      height: 250px;
+      padding-left: 1.4em;
+      padding-right: 1em; }
     #section_1 #top_nav {
       margin-bottom: -5em; }
     #section_1 #section_1_content {
-      margin-top: -6em; } }
+      margin-top: -6em;
+      margin-left: 2em; } }
 @media (max-width: 810px) {
   #section_1 #iphone_image {
     display: none; }
