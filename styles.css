@@ -69,6 +69,16 @@
     height: 44px;
     border-radius: 4px;
     font-size: 16px; }
+  #section_1 #read_more_button:hover {
+    color: white;
+    border: white;
+    border-style: solid;
+    border-width: 4px;
+    background-color: #B34646;
+    width: 170px;
+    height: 54px;
+    border-radius: 4px;
+    font-size: 16px; }
 
 @media (max-width: 1250px) {
   #section_1 {
@@ -356,5 +366,18 @@
 @media (min-width: 0px) and (max-width: 321px) {
   #section_4 #double_wide_image {
     margin-right: 10px; } }
+.back_to_top {
+  height: 45px;
+  width: 90px;
+  border-radius: 90px 90px 0 0;
+  -moz-border-radius: 90px 90px 0 0;
+  -webkit-border-radius: 90px 90px 0 0;
+  background: #FF6D59;
+  margin: 0 auto;
+  float: right;
+  display: inline-block;
+  margin-left: -3.5em;
+  cursor: pointer;
+  bottom: 0em; }
 
 /*# sourceMappingURL=styles.css.map */

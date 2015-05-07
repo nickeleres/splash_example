@@ -202,6 +202,7 @@
 			</div>
 		</div>
 	</div>
+	<div class='back_to_top'></div>
 </body>
 <script>
 	$(document).ready(function(){
@@ -233,6 +234,10 @@
 			$(this).siblings('.section_3_header_and_icon').css('opacity', '1');
 			$(this).css('opacity', '1');
 		});
+
+		$('.back_to_top').on('click', function(){
+			$('html, body').animate({scrollTop:0}, 'slow');
+		})
 	});
 </script>
 </html>
