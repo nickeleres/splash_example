@@ -230,10 +230,6 @@
   text-align: center;
   padding-bottom: 2em;
   padding-top: 6em; }
-  #section_4 .left_half, #section_4 .right_half {
-    display: inline-block;
-    margin: 0 auto;
-    padding: none; }
   #section_4 .double_wide_image {
     content: url("assets/section_4_big.png");
     width: 460px;
@@ -243,6 +239,7 @@
     margin-bottom: 2em;
     margin-right: 2em; }
   #section_4 .mod_4 {
+    height: 335px;
     border-width: 2px;
     border-style: solid;
     border-radius: 8px;
@@ -257,11 +254,8 @@
     float: left;
     display: inline-block; }
   #section_4 #left_half {
-    float: left; }
-  #section_4 #right_half {
-    float: none;
-    display: inline-block;
-    margin: 0 auto; }
+    float: left;
+    margin-left: 11em; }
   #section_4 #latest_news {
     width: 120px;
     height: 20px;

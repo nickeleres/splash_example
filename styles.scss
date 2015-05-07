@@ -367,12 +367,6 @@ $section_4_margin : 2em;
 	padding-bottom: 2em;
 	padding-top: 6em;
 
-	.left_half, .right_half{
-		display: inline-block;
-		margin: 0 auto;
-		padding: none;
-	}
-
 	.double_wide_image{
 		content: url('assets/section_4_big.png');
 		width: 460px;
@@ -384,6 +378,7 @@ $section_4_margin : 2em;
 	}
 
 	.mod_4{
+		height: 335px;
 		border-width: 2px;
 		border-style: solid;
 		border-radius: 8px;
@@ -407,12 +402,13 @@ $section_4_margin : 2em;
 
 	#left_half{
 		float:left;
+		margin-left: 11em;
 	}
 
 	#right_half{
-		float: none;
-		display: inline-block;
-		margin: 0 auto;
+		// float: none;
+		// display: inline-block;
+		// margin: 0 auto;
 	}
 
 	#latest_news{
