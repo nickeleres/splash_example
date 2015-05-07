@@ -237,7 +237,7 @@
   #section_4 .double_wide_image {
     content: url("assets/section_4_big.png");
     width: 460px;
-    height: 335px;
+    height: 325px;
     border-radius: 8px;
     box-sizing: border-box;
     margin-bottom: 2em;
