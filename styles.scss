@@ -496,3 +496,12 @@ $section_4_module_margin_left: 0.5em;
 
 	}
 }
+
+@media (min-width: 0px) and (max-width: 580px){
+	#section_4{
+
+		.top{
+			display: none;
+		}
+	}
+}
